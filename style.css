@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(49, 95, 181);
+}
+.navbar-brand{
+    position: relative;
+    left: 10%;
+}
+.dev{
+    color:rgb(29, 100, 192);
+}
+.sectionmain{
+    background-image: linear-gradient(to bottom left, rgb(29, 100, 192), rgb(255, 254, 254));
+}
+.section2{
+    padding-top: 169px;
+}
+.nav2{
+    margin-left: 35%;
+    margin-top: 69px;
+    height: 400px;
+}
+.img3{
+    width: 33px;
+    margin: 15px;
+    display: none;
+}
+.section3{
+    display: flex;
+    padding: 69px;
+}
+.img2{
+    width: 65vh; 
+    margin-top: 25vh;
+}
+.abt1{
+    padding-left: 69px;
+    margin-top: 33vh;
+}
+.abt{
+    color:rgb(29, 100, 192);
+}
+.span1, .span3{
+    color:rgb(29, 100, 192);
+    font-weight: 900;
+    margin-left: 209px;
+}
+.download{
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 209px;
+    background-color: rgb(29, 100, 192);
+    color: white;
+    transition: background-color 1.5s;
+    transition: color 1s;
+}
+.download:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 1.5s;
+    transition: color 1s;
+}
+.section5{
+    display: flex;
+    padding: 69px;
+}
+.para1{
+    margin-left: 209px;
+    text-align: left;
+}
+.nav{
+    background-image: linear-gradient(to bottom left, rgb(29, 100, 192), rgb(255, 254, 254));
+    padding: 40px;
+}
+.education, .experience, .skills{
+    text-decoration: none;
+    color:rgb(255, 254, 254);
+}
+.Nav{
+    padding-left: 40px;
+}
+.img4{
+    width: 400px;
+    padding: 10px;
+}
+.row{
+    padding: 7vh;
+}
+.section7{
+    padding: 50px;
+}
+.s1{
+    margin-top: 20px;
+}
+footer{
+    background-color:rgb(29, 100, 192);
+}
+.first{
+    padding: 50px;
+}
+.port{
+    text-align: center;
+    color: white;
+}
+.hm{
+    text-align: center;
+    margin-bottom: 0;
+    color:rgb(255, 254, 254);
+    font-size: 59px;
+}
+.add{
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+.foot-link{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.link-iPfly{
+    text-decoration: none;
+    color: white;
+}
+.link-iPfly:hover{
+    color: white;
+}
+.div1{
+    margin-left: 10%;
+}
+.div2{
+    margin-left: 10%;
+}
+.img9{
+    width: 30px;
+    margin: 7px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar{
+        width: auto;
+        height: 100px;
+    }
+    .navbar-brand{
+        position: relative;
+        left: 2%;
+    }
+    .nav2{
+        margin-left: 369px auto;
+        display: none;
+    }
+    .container-fluid{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+    .sectionmain{
+        width: auto;
+        height: 1366px;
+    }
+    .section2{
+        padding-top: 300px;
+    }
+    .section2, .section4{
+        width: auto;
+    }
+    .name1{
+        font-size: 550%;
+    }
+    .im{
+        font-size: 250%;
+    }
+    .section3{
+        width: auto;
+    }
+    .img2{
+        display: none;
+    }
+    .download, .span1, .para1, .span3{
+        margin-left: 39px;
+    }
+    .section3{
+        height: 1366px;
+    }
+    .abt1{
+        padding-left: 0;
+        margin-top: 169px;
+    }
+    .para1{
+        margin: 0;
+    }
+    .div1{
+        margin-left: 5%;
+    }
+    .div2{
+        margin-left: 5%;
+    }
+    /* .row{
+        width: 1024px;
+        padding: 20px;
+    } */
+    footer{
+        width: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .navbar{
+        height: auto;
+    }
+    .section2{
+        padding-top: 200px;
+    }
+    .sectionmain{
+        width: auto;
+        height: 823px;
+    }
+    .name1{
+        font-size: 49px;
+    }
+    .im{
+        font-size: 20px;
+    }
+    .abt1{
+        margin-top: 0;
+    }
+    .section3{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .span1{
+        margin-left: 0;
+    }
+    .section5{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ex, .ed, .sk{
+        display: inline;
+        margin-left: 20px;
+    }
+    .ul1{
+        margin-top: 16px;
+    }
+    .Nav{
+        padding-left: 0;
+    }
+    .hm{
+        font-size: 30px;
+    }
+}
